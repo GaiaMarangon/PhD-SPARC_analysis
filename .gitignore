@@ -172,3 +172,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+
+
+#Data, Results and Figures
+SPARCdata
+SPARCplots
+Results
+Figures
