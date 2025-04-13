@@ -10,7 +10,7 @@ This repository includes:
 - `sparcReading.ipynb`. This code reads the SPARC data and saves visualization plots for the rotation curves and surface brightness profiles. It includes a function to retrieve the index of a given galaxy in the `Table1.mrt` table.
 - `sparcDensities.ipynb`. This code computes, for each galaxy, effective spherically symmetric density profiles for disk, bulge (when available) and gas, starting from the rotation curves data. The density profiles are computed as exponential curves, $\rho(r)=a e^{r/r_0}$. The computed fit parameters are saved in a `.dat` file.
 - `sparcRVelements.ipynb`. This code detects reference elements in each rotation curve (linear fit in midrange region, and characteristic radius $R$ and velocity $V$ according to different definitions). It tests the following hypothesis 
-    > *The quantity $\hbar/(RV)$ is constant across the galaxies* 
+    > The quantity $\hbar/(RV)$ is constant across the galaxies 
 
     by providing histograms and a scattered plots for the selected definition of $R,V$.
 
