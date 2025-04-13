@@ -70,8 +70,8 @@ with:
 
 The code also provides plots of the rotation curves with the desired elements.
 
-### Testing the *$\hbar/(RV)$ is constant* hypothesis
-The code in the `sparcRVelements.ipynb` notebook also tests the hypothesis that *the quantity $\hbar/(RV)$ is constant across the galaxies*. <br>
+### Testing the $\hbar/(RV)$ *is constant* hypothesis
+The code in the `sparcRVelements.ipynb` notebook also tests the hypothesis that *the quantity* $\hbar/(RV)$ *is constant across the galaxies*. <br>
 The test is performed for a specific definition of $(R,V)$, to be selected among the possibilities presented in the previous part of the notebook and saved in the `.dat` file.<br> 
 First, an histogram is computed, to visualize the most frequent value of $\hbar/(RV)$ across the galaxies and the full width at half maximum. <br>
 Then, a scattared plot with $\hbar/(RV)$ against $R$ is provided to check the presence of residual dependencies. A residual exponential dependency is found. An improved definition of $R,V$ is required for a more refined test on the consistency of $\hbar/(RV)$ across different galaxies.
