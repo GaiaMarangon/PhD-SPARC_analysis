@@ -5,4 +5,4 @@ PC = 3.09 # 10^21 cm               parsec
 LP = 1.62 # 10^-33 cm              Planck length
 MP = 2.18 # 10^-5 g                Planck mass 
 # CONSTANTS: in natural astronomical units
-Gastro = G*MS/PC #km^2 kpc Msun^-1 s^-2
+Gastro = G*MS/PC*1000 # kpc (10^9 Msun)^-1 km^2 s^-2
